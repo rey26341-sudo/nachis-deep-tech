@@ -47,3 +47,15 @@ Evaluators can test gRPC payload normalization and Merkle root calculations inte
 ![Live gRPC UI Demo]
 
 <img width="1920" height="1020" alt="Screenshot 2026-08-29 145450" src="https://github.com/user-attachments/assets/e1a192eb-bd27-4a2e-9ba7-032b3652e3ca" />
+
+
+### **Live Protocol Normalization & Verification**
+
+The gRPC telemetry microservice has been live-tested and verified (`STATUS_HEALTHY`) across three distinct protocol standards:
+
+| Protocol Standard | Domain Focus | Verification Demo |
+| :--- | :--- | :--- |
+| **STANAG-4586** | Tactical Defense Telemetry | `https://youtu.be/cWCkhfw4TPM` |
+| **MAVLink-v2** | Autonomous Commercial Logistics | `https://youtu.be/brUwTL_9I0Y` |
+| **Industrial IoT** | Infrastructure & Thermal Sensing | `https://youtu.be/TCAUter-gVY ` |
+

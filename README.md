@@ -1,5 +1,7 @@
 # Nachis Sovereign AI & Telemetry Middleware Platform
 
+We are an enterprise B2B Deep Tech software platform providing telemetry normalization and automated cryptographic compliance auditing for defense prime contractors and dual-use hardware manufacturers."
+
 > **Status:** Pre-Seed Functional Prototype & Architecture Baseline  
 > **Target Verticals:** Aerospace & Defense Supply Chains, Autonomous Hardware, Regulated Logistics  
 

@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  telemetry-proof:
+    build: ./telemetry-normalization
+    container_name: telemetry_engine

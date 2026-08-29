@@ -10,3 +10,5 @@ Build and execute the test pipeline using Docker:
 ```bash
 docker build -t telemetry-proof .
 docker run --rm telemetry-proof
+
+<img width="1920" height="1020" alt="Screenshot 2026-08-29 123128" src="https://github.com/user-attachments/assets/915a8973-fc77-4504-ac43-6d4651578139" />

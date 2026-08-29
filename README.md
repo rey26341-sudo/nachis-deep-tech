@@ -19,9 +19,9 @@ The gRPC telemetry microservice has been verified (`STATUS_HEALTHY`) across thre
 
 | Protocol Standard | Domain Focus | Verification Link |
 | :--- | :--- | :--- |
-| **STANAG-4586** | Tactical Defense Telemetry | [![Watch Demo](https://img.shields.io/badge/Demo-STANAG--4586-blue?style=flat-square&logo=youtube)](https://youtu.be/03R_nQ4Qx5Y) |
-| **MAVLink-v2** | Autonomous Commercial Logistics | [![Watch Demo](https://img.shields.io/badge/Demo-MAVLink--v2-blue?style=flat-square&logo=youtube)](https://youtu.be/G2R5m6G2gWk) |
-| **Custom Industrial IoT** | Asset Health & Thermal Sensing | [![Watch Demo](https://img.shields.io/badge/Demo-Industrial%20IoT-blue?style=flat-square&logo=youtube)](https://youtu.be/TCAUter-gVY) |
+| **STANAG-4586** | Tactical Defense Telemetry | [![Watch Demo](https://youtu.be/03R_nQ4Qx5Y) |
+| **MAVLink-v2** | Autonomous Commercial Logistics | [![Watch Demo](https://youtu.be/G2R5m6G2gWk) |
+| **Custom Industrial IoT** | Asset Health & Thermal Sensing | [![Watch Demo](https://youtu.be/TCAUter-gVY) |
 
 *(Note: Videos are hosted as unlisted demonstrations intended for technical reviewers and evaluators).*
 

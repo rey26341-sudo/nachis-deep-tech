@@ -4,3 +4,9 @@ services:
   telemetry-proof:
     build: ./telemetry-normalization
     container_name: telemetry_engine
+
+  merkle-audit:
+    build: ./merkle-audit
+    container_name: audit_engine
+    depends_on:
+      - telemetry-proof

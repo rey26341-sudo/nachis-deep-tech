@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package telemetry.v1;
+
+enum SystemStatus {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_HEALTHY = 1;
+  STATUS_WARNING = 2;
+  STATUS_CRITICAL = 3;
+}
+
+message TelemetryFrame {
+  string device_id = 1;
+  double timestamp = 2;
+  float altitude_m = 3;
+  float battery_pct = 4;
+  SystemStatus status = 5;
+  bytes payload_hash = 6;
+}
+
+message NormalizationRequest {
+  string raw_payload = 1;
+  string source_protocol = 2;
+}
+
+message NormalizationResponse {
+  TelemetryFrame frame = 1;
+  bool is_valid = 2;
+  string sha256_audit_hash = 3;
+}
+
+service TelemetryService {
+  rpc NormalizeStream (NormalizationRequest) returns (NormalizationResponse);
+}

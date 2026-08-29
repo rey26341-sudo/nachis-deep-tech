@@ -31,7 +31,7 @@ An air-gapped, zero-trust middleware engine designed for sub-5ms telemetry inges
 
 Execute the full multi-container pipeline locally:
 
-<img width="1920" height="1020" alt="Screenshot 2026-08-29 141434" src="https://github.com/user-attachments/assets/03bf1dc2-4c19-4db6-b4b6-837c5c69119b" />
+<img width="1920" height="1020" alt="Screenshot 2026-08-29 124333" src="https://github.com/user-attachments/assets/1c33fe15-ccd3-4a25-a6ed-2f5f208a7eb8" />
 
 <img width="1920" height="1020" alt="Screenshot 2026-08-29 141434" src="https://github.com/user-attachments/assets/d0452164-534c-498d-91d9-13fc3527e004" />
 

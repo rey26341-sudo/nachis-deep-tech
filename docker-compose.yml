@@ -1,12 +1,27 @@
-version: '3.8'
-
 services:
-  telemetry-proof:
-    build: ./telemetry-normalization
-    container_name: telemetry_engine
+  merkle-audit-server:
+    build:
+      context: .
+      dockerfile: merkle-audit/Dockerfile
+    container_name: audit_gRPC_server
+    ports:
+      - "50051:50051"
 
-  merkle-audit:
-    build: ./merkle-audit
-    container_name: audit_engine
+  telemetry-stream-client:
+    build:
+      context: .
+      dockerfile: telemetry-normalization/Dockerfile
+    container_name: telemetry_gRPC_client
+    environment:
+      - AUDIT_SERVER_HOST=merkle-audit-server
     depends_on:
-      - telemetry-proof
+      - merkle-audit-server
+
+  grpc-web-ui:
+    image: fullstorydev/grpcui:v1.3.1
+    container_name: grpc_web_dashboard
+    command: -plaintext merkle-audit-server:50051
+    ports:
+      - "8080:8080"
+    depends_on:
+      - merkle-audit-server

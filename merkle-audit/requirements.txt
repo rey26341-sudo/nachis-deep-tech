@@ -1,1 +1,5 @@
-cryptography==42.0.5
+grpcio>=1.62.0
+grpcio-reflection>=1.62.0
+protobuf>=5.26.0
+cryptography>=42.0.5
+pytest>=8.0.2

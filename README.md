@@ -31,5 +31,17 @@ An air-gapped, zero-trust middleware engine designed for sub-5ms telemetry inges
 
 Execute the full multi-container pipeline locally:
 
+<img width="1920" height="1020" alt="Screenshot 2026-08-29 145450" src="https://github.com/user-attachments/assets/92ded9d0-6065-4c73-9695-2218109de60f" />
+<img width="1920" height="1020" alt="Screenshot 2026-08-29 141434" src="https://github.com/user-attachments/assets/d0452164-534c-498d-91d9-13fc3527e004" />
+
+
 ```bash
 docker compose up --build
+```
+
+### **Live Interactive Microservice Dashboard**
+
+Evaluators can test gRPC payload normalization and Merkle root calculations interactively via the built-in web dashboard at `http://localhost:8080`:
+
+![Live gRPC UI Demo](<img width="1920" height="1020" alt="Screenshot 2026-08-29 145450" src="https://github.com/user-attachments/assets/e1a192eb-bd27-4a2e-9ba7-032b3652e3ca" />
+)

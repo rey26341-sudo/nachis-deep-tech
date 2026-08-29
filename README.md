@@ -43,5 +43,6 @@ docker compose up --build
 
 Evaluators can test gRPC payload normalization and Merkle root calculations interactively via the built-in web dashboard at `http://localhost:8080`:
 
-![Live gRPC UI Demo](<img width="1920" height="1020" alt="Screenshot 2026-08-29 145450" src="https://github.com/user-attachments/assets/e1a192eb-bd27-4a2e-9ba7-032b3652e3ca" />
-)
+![Live gRPC UI Demo]
+
+<img width="1920" height="1020" alt="Screenshot 2026-08-29 145450" src="https://github.com/user-attachments/assets/e1a192eb-bd27-4a2e-9ba7-032b3652e3ca" />
